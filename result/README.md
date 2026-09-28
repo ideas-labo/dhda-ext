@@ -1,11 +1,5 @@
 # DHDA experimental data
 
-This directory is the publication-facing data release for the paper version in
-`TSE_dhda_ext_ZX_JG-newbase`. It replaces the ambiguous legacy folder names with
-the research-question numbering used in the paper. The legacy directories are
-retained outside this directory for provenance and are not required when using
-this release.
-
 ## Directory layout
 
 ```text
