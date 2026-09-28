@@ -53,8 +53,6 @@ SHA-256 checksums, and legacy source paths.
 | RQ4 | Sensitivity to alpha | `rq4-sensitive/accuracy`, `rq4-sensitive/time` |
 | RQ5 | Adaptation time normalized by stream length | `rq5-time/normalized_csv` |
 
-The RQ5 files are processed values rather than raw clock measurements. Their
-raw inputs are the RQ1 runtime files.
 
 ## Verification
 
@@ -71,7 +69,4 @@ paper tables. Known paper/data discrepancies are documented in
 
 ## Scope
 
-The paper evaluates 12 systems. Legacy `lighttpd` and `mysql` files are excluded
-because they are not reported in the current paper. Figures, logs, cached Python
-files, `.DS_Store`, intermediate rankings, and superseded `csv-old` files are
-also excluded from the release tree.
+The paper evaluates 12 systems.
